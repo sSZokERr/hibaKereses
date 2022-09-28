@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:id="@+id/relativeLayout"
     tools:context=".MainActivity">
 
     <EditText
@@ -18,7 +19,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonrandom"
+        android:id="@+id/buttonRandom"
         android:text="Random color"
         android:layout_below="@id/editTextInput"
         android:layout_centerHorizontal="true"
@@ -29,7 +30,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/buttonSubmit"
         android:text="Küldés"
-        android:layout_below="@id/buttonrandom"
+        android:layout_below="@id/buttonRandom"
         android:layout_centerHorizontal="true"
         android:textSize="20sp"/>
 
